@@ -1,25 +1,11 @@
-// Importing inter font from google-fonts
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
-
-//reset the layout
 *,
 *::after,
 *::before {
-  //   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-//colors-varibles [Hues]
-$bkg: #abd1c6;
-$form-bkg: #004643;
-$headline: #001e1d;
-$form-headline: #fffffe;
-$paragraph: #abd1c6;
-$btn-bkg-color: #f9bc60;
-$btn-text: #001e1d;
-
-//body
 body {
   font-family: "Inter", sans-serif;
   background-color: #abd1c6;
@@ -36,7 +22,7 @@ body {
 }
 
 h3 {
-  color: $form-headline;
+  color: #fffffe;
   font-weight: bold;
 }
 
@@ -90,7 +76,7 @@ label {
 
 .generate-btn {
   background-color: #f9bc60;
-  color: $btn-text;
+  color: #001e1d;
   font-size: 1rem;
   font-weight: bold;
   grid-column: span 2;
@@ -103,3 +89,5 @@ label {
 .generate-btn:hover {
   background-color: #abd1c6;
 }
+
+/*# sourceMappingURL=/main.39afc03c.css.map */

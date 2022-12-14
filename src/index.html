@@ -4,9 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="./main.scss" />
     <script defer src="./app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="title">Password Generator</h1>
+
+      <h3 id="Pass-Display" class="password-display">Password</h3>
+      <form id="form-body" class="form">
+        <label for="range">Number of Characters</label>
+
+        <div class="range-container">
+          <input id="range" type="range" min="1" max="50" value="10" />
+          <input
+            class="number-input"
+            id="number"
+            type="number"
+            min="1"
+            max="50"
+            value="10"
+          />
+        </div>
+        <label for="uppercase">Include Uppercase</label>
+        <input type="checkbox" id="uppercase" />
+
+        <label for="include-numbers">Include Numbers</label>
+        <input type="checkbox" id="include-numbers" />
+
+        <label for="include-symbols">Include Symbols</label>
+        <input type="checkbox" id="include-symbols" />
+
+        <input type="submit" value="Genetate Password" id="generate-btn" />
+      </form>
+    </div>
+  </body>
 </html>
