@@ -1,10 +1,10 @@
 # Password Generator App
 
-# Live Preview: https://generate-pass-app.netlify.app/
+## Live Preview: https://generate-pass-app.netlify.app/
 
 # Description
 
-## Simple password genrator app, that genrates a pssword between (0 - 50) characters including (Numbers,Symbols and Uppercase Ltters)
+### Simple password genrator app, that genrates a pssword between (0 - 50) characters including (Numbers,Symbols and Uppercase Ltters)
 
 # Features
 
