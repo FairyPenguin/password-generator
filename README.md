@@ -17,7 +17,7 @@
 - SASS(CSS)
 - Vanilla Javascript
 
-#Updates
+## Updates
 1. **Password strength meter feature**
 2. **Copy password to clipbaord feature**
 3. **Responsive on mobile devices**
