@@ -10,7 +10,7 @@
 - Include Number
 - Include Symbols
 
-#Used Stack 
+# Used Stack 
 -HTML
 -SASS(CSS)
 -Vanilla Javascript
@@ -18,4 +18,4 @@
 #Updates
 1. **Password strength meter feature**
 2. **Copy password to clipbaord feature**
-3. ** Responsive on mobile devices **
+3. **Responsive on mobile devices**
