@@ -74,3 +74,4 @@ function syncRange(e) {
   charactersRange.value = value;
   NumbersRange.value = value;
 }
+

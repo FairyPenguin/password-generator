@@ -60,18 +60,23 @@ label {
   width: 2rem;
 }
 
+input {
+  cursor: pointer;
+}
+
 .password-display {
   background-color: #fffffe;
   color: #e16162;
-  padding: 1rem;
+  padding: 1.5rem;
   border: 1px solid #f9bc60;
-  height: 2rem;
-  width: 350px;
+  height: 2.5rem;
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
-  word-break: breal-all;
+  word-break: break-all;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .generate-btn {
@@ -88,6 +93,11 @@ label {
 
 .generate-btn:hover {
   background-color: #abd1c6;
+}
+
+.meter {
+  width: 440px;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=/main.39afc03c.css.map */

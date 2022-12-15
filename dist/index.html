@@ -10,16 +10,18 @@
   <script src="/main.39afc03c.js"></script></head>
   <body>
     <div class="container">
-      <h1 class="title">Password Generator</h1>
+      <h1 class="title">Password Generator App</h1>
 
       <h3 id="Pass-Display" class="password-display">Password</h3>
+      <meter id="strength" class="meter" min="0" max="100" low="30" high="75" optimum="100" value="20"></meter>
       <form id="form-body" class="form">
         <label for="range">Number of Characters</label>
 
         <div class="range-container">
-          <input id="range" type="range" min="1" max="50" value="10">
-          <input class="number-input" id="number" type="number" min="1" max="50" value="10">
+          <input id="range" type="range" min="6" max="50" value="10">
+          <input class="number-input" id="number" type="number" min="6" max="50" value="10">
         </div>
+
         <label for="uppercase">Include Uppercase</label>
         <input type="checkbox" id="uppercase">
 
@@ -28,8 +30,8 @@
 
         <label for="include-symbols">Include Symbols</label>
         <input type="checkbox" id="include-symbols">
-
-        <input type="submit" value="Genetate Password" id="generate-btn">
+        <span></span>
+        <input type="submit" value="Genetate Password" class="generate-btn" id="generate-btn">
       </form>
     </div>
   </body>
